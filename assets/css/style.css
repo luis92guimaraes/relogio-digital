@@ -49,7 +49,18 @@ body {
     font-size: 10px;
 }
 
-@media(max-width: 375px) {
+@media(max-width: 545px) {
+    .relogio {
+        width: 450px;
+    }
+
+    .relogio div {
+        width: 130px;
+    }
+}
+
+
+@media(max-width: 415px) {
     .relogio {
         width: 350px;
     }
